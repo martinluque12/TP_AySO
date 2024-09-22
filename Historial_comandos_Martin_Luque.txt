@@ -1,0 +1,120 @@
+ssh-keygen
+ls -la ~/.ssh
+cat ~/.ssh/id_rsa.pub
+cd
+ls
+pwd
+mkdir repogit
+dir
+rm repogit/
+remidr repogit/
+rem -r repogit/
+rm -r repogit/
+ls
+rm -rf repogit/
+ls
+mkadir repogit
+ls
+mkadir ~/repogit
+ls
+pwd
+cd
+mkdir repogit
+ls
+cd repogit/
+git clone git@github.com:martinluque12/TP_AySO.git
+ls
+pwd
+ls -l
+cat /etc/os-release 
+man grep
+grep -i home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+ls
+cd TP_AySO/
+git add .
+git config --global user.email "m.ezequiel.luque@gmail.com"
+git config --global user.name "martinluque12"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git log
+git sta
+git status
+git add .
+git sta
+git status
+cat datos_usuario
+ls
+cd ..
+ls
+rm -rf datos_usuario.txt 
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release 
+man grep 
+grep -i home_url /etc/os-release 
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add .
+git config --global user.email "m.ezequiel.luque@gmail.com"
+git config --global user.name "martinluque12"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+grep "model_name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información del CPU"
+grep -v "nologin" /etc/passwd
+grep -v "nologin" /etc/passwd | head | sort -t: -k7
+mkdir lista_ordenada
+grep -v "nologin" /etc/passwd | head | sort -t: -k7 > lista_ordenada
+ls
+rm -rf lista_ordenada/
+ls
+echo lista_ordenada
+ls
+pwd
+ls
+cat datos_usuario.txt 
+grep -v "nologin" /etc/passwd | head | sort -t: -k7 > lista_ordenada
+ls
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+man -k "tcpdump"
+man -k "network"
+apropos "packet capture"
+sudo mandb
+sudo apt-get install tcpdump
+apropos tcpdump
+echo "tcpdump" > comando_dump_net
+echo "apropos tcpdump" >> comando_dump_net 
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat <<EOL README.md
+Alumno: Martin Luque
+Division: 312
+Turno: Noche
+EOL
+
+cat README.md 
+ls
+cat README.md 
+cat <<EOL >> README.md
+Alumno: Martin Luque
+Division: 312
+Turno: Noche
+EOL
+
+cat README.md 
+git add .
+git commit -m "docs: Agregar información del alumno"
+history -a
